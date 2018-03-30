@@ -5,8 +5,7 @@ if (strpos($ua, 'MicroMessenger')) {
     $name = '微信支付';
     //微信支付链接
     $url = 'wxp://f2f09hjzo72AAYEITIBaolV-3cvGrDjE0q7k';
-    header('location: ' . $url);
-    //$icon_img = '<img src="http://ww2.sinaimg.cn/large/005zWjpngy1fojrwgr20oj303k03kglg.jpg" width="48px" height="48px" alt="'.$name.'">';
+    $icon_img = '<img src="http://ww2.sinaimg.cn/large/005zWjpngy1fojrwgr20oj303k03kglg.jpg" width="48px" height="48px" alt="'.$name.'">';
 }
 elseif (strpos($ua, 'AlipayClient')) {
     //支付宝链接
